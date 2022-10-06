@@ -1,0 +1,291 @@
+body{
+    background: url(../image/gateau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(3, 3, 3);
+    margin: 0px;
+    padding: 0px;
+    background-position:inherit;
+}
+nav{
+    background-color: #3BB54A; 
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 3px 10px  #002700 ;
+    position: fixed;
+    z-index: 1000;
+    
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+}
+nav #menu{
+    
+   
+    position: absolute;
+    content: '';
+   display: table;
+   margin: 0 auto;
+    right: 25px; 
+    margin-top: 8px;
+}
+
+#menu li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    color: rgb(25, 25, 26);
+    font-weight: 400px;
+   
+}
+#menu li a{
+    text-decoration: none;
+    color: aliceblue ;
+   
+    font-weight: 1000px; 
+    font-size: 23px;
+    padding: 2px 40px 2px 40px;   
+}
+#menu li a:hover{
+    background-color: #FFDD5D;
+    border-top: 5px;
+  
+    padding-bottom: 10px;
+    color: rgb(13, 13, 14);
+    
+}
+
+aside{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgb(10, 10, 10) ;
+    border-right: 2px solid #FFDD5D;
+    border-top: 2px solid #FFDD5D;
+    border-radius: 20px;
+    top: 200px;
+    justify-content: center;
+    position:relative;
+    padding-bottom: 200px;
+}
+/*#3BB54A    #FFDD5D  #ED1C24*/
+aside h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+    margin-top: -5px;
+    text-decoration: underline;
+}
+.Mmenu{
+    font-size: 50px;
+    color: #3BB54A ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Mmonika{
+    font-size: 50px;
+    color: #FFDD5D ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside .menu1 a{
+    font-weight: 400px;
+    color: aliceblue;
+    text-decoration: none;   
+}
+
+aside .menu1 a:hover{
+    color: rgba(57, 181, 74, 0.5);
+    transition: cubic-bezier(.17,.67,.38,.23);
+    text-decoration: underline;
+}
+
+aside .menu1{  
+    padding-top: 50px;
+    font-size: 30px; 
+    list-style:square;
+    text-align: left;
+    color: #FFDD5D;
+}
+
+.textboul h1{
+    font-size: 40px;
+    color: #FFDD5D;
+    text-align: center;
+    font-weight: 500px;
+    margin-top: 50px;
+    
+}
+#histoireboul{
+    display:inline-block;
+    width: 50%;
+    height: max-content;
+    transform: translateY(-600px);
+    margin-left: 500px;
+    z-index: -1;
+    justify-content: center;
+    justify-items: center;
+}
+#imgateau{
+    display:inline-block;
+    width: 80%;
+    height: max-content;
+    transform: translateY(-600px);
+    margin-left: 200px;
+    z-index: -1;
+    justify-content: center;
+    justify-items: center;
+}
+
+#histoireboul p{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.textboul{
+    justify-content: space-between;
+
+}
+.cuisto{
+    height: 50%;
+    width: 40%;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+.pre1{
+   
+    width: 150px;
+    height: 150px;
+}
+
+.gateau{
+    width: 90%;
+    height: 80%;
+    float: right;
+    position: relative;
+}
+.gateau-div{
+    width: 180px;
+    height: 150px;
+    float: right;
+    margin-left: 90px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.gateau-div p{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    background-color: #161616;
+    position: relative;
+    border-top: 2px double #FFDD5D;
+    width: 100%;
+    height: max-content;
+  
+}
+.pides-de-page h3{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FFDD5D;
+    display: inline;
+    margin: 0px 5px 20px 5px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.pgMonika{
+    border-bottom: 1px double #FFDD5D;
+    width: 30%;;
+    height: 60px;
+    position: relative;
+    display: inline-block;
+}
+.pides-de-page{ 
+    width:100%;
+    content: '';
+    display:table-caption;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0px 70px 20px 70px;
+}
+
+.partenaire{
+    content: '';
+    display: table;
+    margin: 0 auto;
+    padding-bottom:10px;
+    margin-left:-15px;
+    padding-top: 30px;
+
+}
+.partner{
+    float: left;
+     width: 160px;
+    height: 180px;
+    margin-left: 100px;
+    
+}
+.part1{
+    width: 100px;
+    height: 80px;
+}
+.part2{
+    width: 100px;
+    height: 80px;
+}
+    
+.part3{
+    width: 240px;
+    height: 80px;
+}
+.part4{
+    margin-left: 100px;
+    width: 260px;
+    height: 80px;
+    background-color: aliceblue;
+}
+.pides-de-page h2{
+    font-size: 30px;
+    
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FFDD5D;
+    display: inline;
+    margin: 0px 5px 20px 5px;
+    position: relative;
+}
+.ContactMonika{
+    border-bottom: 1px double #FFDD5D;
+    width: 30%;;
+    
+    position: relative;
+    display: inline-block;
+}
+.contact{
+    color: #e0e0df;
+}
+
+.lienContact{
+    float: left;
+     width: 160px;
+    height: 180px;
+    margin-left: 100px;
+    
+}
+
+
